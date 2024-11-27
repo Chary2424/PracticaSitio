@@ -3,6 +3,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import CryptoJS from 'crypto-js';
 
+const GITHUB_CLIENT_ID = 'Ov23li8nR24QsibvEM57';
+const REDIRECT_URI = 'https://practica-orpin.vercel.app/login';
+
 /**
  * Componente de Login que permite a los usuarios iniciar sesión.
  * 
@@ -60,6 +63,10 @@ function Login({ setUser }) {
     }
   };
 
+  const handleGitHubLogin = () => {
+    window.location.href = `https://github.com/login/oauth/authorize?client_id=${GITHUB_CLIENT_ID}&redirect_uri=${REDIRECT_URI}`;
+  };
+
   return (
     <div className="w-80 p-6 bg-white rounded shadow-md">
       <h2 className="text-2xl font-bold mb-4">Login</h2>
@@ -78,6 +85,7 @@ function Login({ setUser }) {
         className="w-full p-2 border rounded mb-4"
       />
       <button onClick={handleLogin} className="w-full bg-blue-500 text-white py-2 rounded mb-2">Login</button>
+      <button onClick={handleGitHubLogin} className="w-full bg-gray-800 text-white py-2 rounded mb-2">Login with GitHub</button>
       <p className="text-center">
         Don’t have an account? <Link to="/register" className="text-blue-500">Register</Link>
       </p>

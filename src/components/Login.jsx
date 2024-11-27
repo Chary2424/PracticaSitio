@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import CryptoJS from 'crypto-js';
 
 const GITHUB_CLIENT_ID = 'Ov23li8nR24QsibvEM57';
-const REDIRECT_URI = 'https://practica-orpin.vercel.app/login';
+const REDIRECT_URI = 'https://practica-delta-gray.vercel.app/login';
 
 /**
  * Componente de Login que permite a los usuarios iniciar sesión.

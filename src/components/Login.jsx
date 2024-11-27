@@ -3,8 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import CryptoJS from 'crypto-js';
 
-const GITHUB_CLIENT_ID = '';
-const REDIRECT_URI = 'https://practica-seg.vercel.app/login';
+const GITHUB_CLIENT_ID = 'Ov23li8nR24QsibvEM57';
+const REDIRECT_URI = 'https://practica-self.vercel.app/login';
 
 /**
  * Componente de Login que permite a los usuarios iniciar sesión.

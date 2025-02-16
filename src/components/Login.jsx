@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import CryptoJS from 'crypto-js';
 
-const GITHUB_CLIENT_ID = 'Ov23li8nR24QsibvEM57';
+const GITHUB_CLIENT_ID = 'Iv23li3fr41WA0lCpOdn';
 const REDIRECT_URI = 'https://practica-sitio-aalfjwb9m-chary2424s-projects.vercel.app/chat';
 
 /**

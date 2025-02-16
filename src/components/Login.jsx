@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import CryptoJS from 'crypto-js';
 
 const GITHUB_CLIENT_ID = 'Ov23li8nR24QsibvEM57';
-const REDIRECT_URI = 'https://practica-self.vercel.app/chat';
+const REDIRECT_URI = 'https://practica-sitio-aalfjwb9m-chary2424s-projects.vercel.app/chat';
 
 /**
  * Componente de Login que permite a los usuarios iniciar sesión.
